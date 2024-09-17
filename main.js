@@ -38,7 +38,7 @@ document.getElementById('bt_submit').addEventListener('click', function(event) {
     .then((res) => res.json())
     .then((data) => {
         console.log(data);
-        window.location.assign("../Home/home.html"); 
+        window.location.assign("home.html"); 
     })
   
 });

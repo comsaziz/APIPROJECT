@@ -31,7 +31,7 @@ document.getElementById('bt_submit').addEventListener('click', function(event) {
             if (user.Email === email && user.Password === pass) {
                 userFound = true;
                 sessionStorage.setItem('userName', user.Name);
-                window.location.href = "../Home/home.html";
+                window.location.href = "home.html";
             }
         });
 
